@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const CoursePropertyWrapper = styled.div`
   width: 100%;
   display: flex;
+  border-top: 1px solid rgba(176, 190, 197, 0.3);
   justify-content: space-between;
   align-items: flex-end;
 `;

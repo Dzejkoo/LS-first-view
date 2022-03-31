@@ -57,9 +57,11 @@ export const UserMessageInfo = styled.div`
   padding: 6px 10px 6px 20px;
   width: 100%;
 `;
+
 export const Name = styled.span`
   font-size: ${({ theme }) => theme.fontSize.m};
 `;
+
 export const Time = styled.span`
   font-size: 10px;
   position: relative;

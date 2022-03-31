@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 
-export const CourseWrapper = styled.div``;
-
 export const SwithLabel = styled.label`
   display: inline-block;
-  font-size: 20px; /* 1 */
+  font-size: 20px;
   height: 17px;
   width: 28px;
   background: ${({ theme }) => theme.colors.turkisLight};
   border-radius: 10px;
-
   div {
     height: 17px;
     width: 17px;
@@ -22,6 +19,7 @@ export const SwithLabel = styled.label`
     transform: translate3d(100%, 0, 0);
   }
 `;
+
 export const SwithInput = styled.input`
   position: absolute;
   opacity: 0;

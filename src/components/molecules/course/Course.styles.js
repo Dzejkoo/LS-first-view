@@ -13,7 +13,6 @@ export const CourseWrapper = styled.div`
 
 export const CourseInfoWrapper = styled.div`
   padding: 0 0 0 20px;
-  border-bottom: 1px solid rgba(176, 190, 197, 0.3);
   display: flex;
   flex-wrap: wrap;
   h3 {

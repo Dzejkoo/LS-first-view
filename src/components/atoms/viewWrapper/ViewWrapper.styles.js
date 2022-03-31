@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const ViewWrapper = styled.div`
   flex-grow: 4;
   display: flex;

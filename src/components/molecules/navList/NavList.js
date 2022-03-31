@@ -34,6 +34,7 @@ const StyledLink = styled(NavLink).attrs()`
     padding-left: 35px;
   }
 `;
+
 export const NavList = () => {
   return (
     <NavListStyled>

@@ -13,7 +13,7 @@ export const Message = () => {
         <span>6</span>
       </HeaderMessage>
       <Chat>
-        <img src={photos.userSecound} />
+        <img src={photos.userSecound} alt="user face" />
         <UserMessageInfo>
           <DeliveredName>
             <Name>Paweł Nowak</Name>
@@ -23,7 +23,7 @@ export const Message = () => {
         </UserMessageInfo>
       </Chat>
       <Chat>
-        <img src={photos.userThird} />
+        <img src={photos.userThird} alt="user face" />
         <UserMessageInfo>
           <DeliveredName>
             <Name>Joanna Zalewska</Name>
@@ -33,7 +33,7 @@ export const Message = () => {
         </UserMessageInfo>
       </Chat>
       <Chat>
-        <img src={photos.userThird} />
+        <img src={photos.userThird} alt="user face" />
         <UserMessageInfo>
           <DeliveredName>
             <Name>Joanna Zalewska</Name>

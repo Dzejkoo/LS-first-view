@@ -1,6 +1,6 @@
 import React from 'react';
 import { SettingCourse } from '../../atoms/settingCourse/SettingCourse';
-import { CourseProperty } from '../../atoms/proprtyCourse/CourseProperty';
+import { CourseProperty } from '../../atoms/courseProperty/CourseProperty';
 import { CourseInfoWrapper, CourseWrapper } from './Course.styles';
 
 export const Course = ({ title, photo }) => {
