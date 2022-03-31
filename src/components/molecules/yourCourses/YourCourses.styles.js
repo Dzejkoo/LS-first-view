@@ -38,7 +38,8 @@ export const CoursesNavigation = styled.div`
   display: flex;
   padding-left: 24px;
 `;
-export const NavigationItem = styled.div`
+export const NavigationItem = styled.a`
+  cursor: pointer;
   font-size: ${({ theme }) => theme.fontSize.m};
   color: ${({ isActive, theme }) => (isActive ? theme.colors.turkis : theme.colors.grayDark)};
   border-bottom: ${({ isActive, theme }) => (isActive ? `2px solid ${theme.colors.turkis}` : 'none')};

@@ -23,6 +23,7 @@ export const SwithLabel = styled.label`
 export const SwithInput = styled.input`
   position: absolute;
   opacity: 0;
+  cursor: pointer;
 `;
 
 export const SettingCourseWrapper = styled.div`
@@ -38,7 +39,8 @@ export const SettingCourseWrapper = styled.div`
   }
 `;
 
-export const CourseSettings = styled.div`
+export const CourseSettings = styled.a`
+  cursor: pointer;
   width: 35px;
   height: 35px;
   border-radius: 50%;

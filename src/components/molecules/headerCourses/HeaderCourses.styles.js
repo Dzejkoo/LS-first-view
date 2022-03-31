@@ -18,8 +18,9 @@ export const Icons = styled.div`
   color: ${({ theme }) => theme.colors.white};
 `;
 
-export const IconsWrapperMessage = styled.div`
+export const IconsWrapperMessage = styled.a`
   position: relative;
+  cursor: pointer;
   margin-right: 30px;
   span {
     font-size: 10px;
@@ -37,8 +38,9 @@ export const IconsWrapperMessage = styled.div`
     text-align: center;
   }
 `;
-export const IconsWrapperNotification = styled.div`
+export const IconsWrapperNotification = styled.a`
   position: relative;
+  cursor: pointer;
   span {
     font-size: 10px;
     display: block;
