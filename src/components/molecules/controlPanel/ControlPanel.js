@@ -9,11 +9,11 @@ export const ControlPanel = () => {
     <Wrapper>
       <NavItem isLast>
         <LogOut />
-        <span>Wyloguj</span>
+        <button>Wyloguj</button>
       </NavItem>
       <CompanyInfo>
         <img src={photos.companyLogo} alt="Company Logo" />
-        <span>Nazwa firmy</span>
+        <button>Nazwa firmy</button>
       </CompanyInfo>
     </Wrapper>
   );

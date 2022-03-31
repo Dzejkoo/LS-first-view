@@ -14,6 +14,8 @@ const data = {
 const ListCoursesWrapper = styled.div`
   overflow-y: scroll;
   flex-grow: 2;
+  padding-bottom: 60px;
+  /* overflow: hidden; */
 `;
 
 export const ListCourses = () => {
@@ -22,7 +24,6 @@ export const ListCourses = () => {
       <Course title={data.title1} photo={photos.htmlLogo} />
       <Course title={data.title2} photo={photos.jsLogo} />
       <Course title={data.title3} photo={photos.cssLogo} />
-      <Course title={data.title1} photo={photos.htmlLogo} />
       <Course title={data.title1} photo={photos.htmlLogo} />
     </ListCoursesWrapper>
   );
