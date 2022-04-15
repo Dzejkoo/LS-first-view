@@ -1,7 +1,7 @@
 import React from 'react';
 import { CoursesHeaderStyled, Title } from './CoursesHeader.styles';
 import { ReactComponent as AddIcon } from '../../../assets/images/icon/add-icon.svg';
-import { CoursesNavigation } from '../../navigation/CoursesNavigation/CoursesNavigation';
+import { CoursesNavigation } from '../../navigations/CoursesNavigation/CoursesNavigation';
 
 export const CoursesHeader = () => {
   return (

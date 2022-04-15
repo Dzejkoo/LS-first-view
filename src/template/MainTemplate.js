@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LeftNavigation } from '../components/navigation/LeftNavigation/LeftNavigation';
+import { LeftNavigation } from '../components/navigations/LeftNavigation/LeftNavigation';
 import { UserProfile } from '../components/user/UserProfile/UserProfile';
 
 const Wrapper = styled.div`
